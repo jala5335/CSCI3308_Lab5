@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<script src="/resources/js/my_scripts.js"></script>
+	<script>
+		function displayDate(id) {
+			document.getElementById(id).innerHTML = Date();
+		}
+	</script>
+<body>
+	<button class="btn btn-primary" onclick="document.getElementById('demo').innerHTML = Date();"> Display Date and Time.</button>
+	<p id="demo"></p>
+</body>
+</html>
